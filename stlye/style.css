@@ -27,7 +27,7 @@ main{
     display: flex;
     width: 1000px;
     margin: auto;
-    gap: 1rem;
+    gap: 2rem;
     flex-wrap: wrap;
 }
 .image, .text{
@@ -35,6 +35,13 @@ main{
 }
 img{
     width: 400px;
+}
+.image{
+    border: 1px solid #fff;
+    text-align: center;
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
 }
 .text h2{
     font-size: 1.3rem;
